@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    text-align: center;
+
+
+}
+/*Top container*/
+.topcontainer{
+    position: absolute;
+    background-color: #c0ded9;
+    margin: 0px;
+    padding-top: 100px;
+    width: 100vw;
+    height: 433px;
+}
+.intro{
+    font-family: 'Sacramento', cursive;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+
+}
+#mountain{
+    position: relative;
+    z-index: 2;
+
+}
+#cloud1{
+    position: absolute;
+    bottom: 32%;
+    left: 30%;
+    z-index: 1;
+}
+#cloud2{
+    position: absolute;
+    bottom: 45%;
+    right: 35%;
+    z-index: 3;
+
+}
